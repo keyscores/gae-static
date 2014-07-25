@@ -1,4 +1,4 @@
-gae-static-pages Fork
+gae-static
 ================
 Using git push, you can update and host your static HTMl site on Google App Engine (for free with global CDN and all that good stuff).
 
