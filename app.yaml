@@ -6,12 +6,12 @@ threadsafe: yes
 
 pagespeed:
   enabled_rewriters:
+  - RemoveComments
+  - CollapseWhitespace
   - MinifyCss
   - CombineJs
   - CombineCss
   - InlineCss
-  - RemoveComments
-  - CollapseWhitespace
   - CombineHeads
   - InlineImages
   - DeferJs
