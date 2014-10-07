@@ -7,9 +7,11 @@ Using git push, you can update and host your static HTMl site on Google App Engi
 3. Change app.yaml to the name of your app and version.
 4. Set up "push to deploy" at developers.google.com/console > Source Code > Releases > Create Pipeline pointing to the new repo
 
+Usage Instructions
+==================
+The site's default text content is located in `public/locales/default/translation.json`. The i18n translation files are located at `public/locales/your-locale/translation.json`.
 
-Thanks to fizerkhan
-To know more about deploying static page on Google App Engine,
-refer [this article](http://www.fizerkhan.com/blog/posts/Free-Static-Page-Hosting-on-Google-App-Engine-in-a-5-minutes.html)
+If you'd like to try a different language without changing your system language, you can set it in a query string. Here's an example for Spanish : **http://localhost:8080/?setLng=es**
+
 
 
