@@ -1,5 +1,9 @@
 {
     "app": {
+    "background":{
+          "img_file":"bg.jpg",
+          "video_file":"desktop"
+    },
 	"navigation":{
 		"buttontext": "Demo",
 		"menu1": "Login",
@@ -30,13 +34,13 @@
 		"title":"Acesse a demo online",
 		"buttontext":"Ver Demo",
 		"emailtext":"E-mail",
-		"spamtext":"Cadastros finalizados para a turma de Setembro 2014"      	
+		"spamtext":"Cadastros finalizados para a turma de Setembro 2014"
 	},
 	"testimonial1":{
 		"title":"Igor Senra Magalhães",
 		"subtitle":"CEO Moip - Pagamentos",
 		"content":"Com toda a complexidade de meio de pagamento, não é qualquer ferramenta que nos atenda. Temos análises inéditas de clientes, e uma grande redução no tempo de preparo dos relatórios",
-		"image": "http://www.placehold.it/185x185"      	
+		"image": "http://www.placehold.it/185x185"
 	},
 	"testimonial2":{
 		"title":"Charles Betito Filho",
@@ -50,7 +54,7 @@
 		"content":"Somos a maior distribuidora digitial da america latina. Com esta solução todos nossos membros tem informação em tempo real.",
 		"image": "http://www.placehold.it/185x185"
 	}
-	
-	
+
+
     }
-}  
+}

@@ -4,6 +4,12 @@ runtime: python27
 api_version: 1
 threadsafe: yes
 
+pagespeed:
+  enabled_rewriters:
+  - RemoveComments
+  - CollapseWhitespace
+  - WebpOptimization
+
 handlers:
 
 - url: /(.+)
