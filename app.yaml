@@ -20,6 +20,9 @@ pagespeed:
 
 handlers:
 
+- url: /api-email/.*
+  script: api-email.application
+
 - url: /(.+)
   static_files: public/\1
   upload: public/(.*)
@@ -28,8 +31,7 @@ handlers:
   static_files: public/index.html
   upload: public/index.html
 
-- url: /api-email/.*
-  script: api-email.application
+
 
 skip_files:
 - ^(.*/)?app\.yaml
