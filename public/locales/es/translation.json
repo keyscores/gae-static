@@ -1,0 +1,56 @@
+{
+    "app": {
+	"navigation":{
+		"buttontext": "Demo",
+		"menu1": "Login",
+		"menu2": "Cadastro",
+		"menu3": "Contato"
+	},
+	"header": {
+		"title":"iMasters Commerce Intelligence",
+		"subtitle": "Plataforma e serviço para maximizar ROI"
+	},
+	"section1":{
+		"title":"Um dashboard central para toda a operação",
+		"content":"Sincronia automatica de dados entre plataformas que não se falam. Esqueça a conciliação por excel. Desocupe sua equipe de TI de tarefas de relatórios. Tenha as respostas sempre na mão"
+	},
+	"section2":{
+		"title":"Gestão da Analitica = Plataforma + Pessoas",
+		"content":"Sente que você não tem recursos ou cultura empresarial para Analytics? Para membros do ecommerce Brasil, estamos oferecendo automação de dados, capacitação, auditoria humana e benchmark das melhores práticas. ",
+		"buttontext":"Veja Mais"
+	},
+	"section3":{
+		"left_title":"Custo de adquirir clientes, e outras segmentações",
+		"left_content":"Análises de segmentação é simples no iMasters Intelligence. Encontre os clientes de maior rentabilidade, e auxilie os que abandonam com frequência.",
+		"right_title":"Custo e margem para qualquer produto, segmento ou pessoa",
+		"right_content":"Fazer análises com cálculos complexos, atravessando multiplas dimensões, categorias, e departamentos tornou-se simples.",
+		"buttontext":"Veja mais"
+	},
+	"subscribe":{
+		"title":"Acesse a demo online",
+		"buttontext":"Ver Demo",
+		"emailtext":"E-mail",
+		"spamtext":"Cadastros finalizados para a turma de Setembro 2014"      	
+	},
+	"testimonial1":{
+		"title":"Igor Senra Magalhães",
+		"subtitle":"CEO Moip - Pagamentos",
+		"content":"Com toda a complexidade de meio de pagamento, não é qualquer ferramenta que nos atenda. Temos análises inéditas de clientes, e uma grande redução no tempo de preparo dos relatórios",
+		"image": "http://www.placehold.it/185x185"      	
+	},
+	"testimonial2":{
+		"title":"Charles Betito Filho",
+		"subtitle":"CEO Hive - Games",
+		"content":"Conseguimos finalmente implementar as melhores práticas de relatórios financeiros. Minha equipe tem acesso a dados sem depender da TI",
+		"image": "http://www.placehold.it/185x185"
+	},
+	"testimonial3":{
+		"title":"Fabio Lima",
+		"subtitle":"CEO Sofadigital - Distribuição Video",
+		"content":"Somos a maior distribuidora digitial da america latina. Com esta solução todos nossos membros tem informação em tempo real.",
+		"image": "http://www.placehold.it/185x185"
+	}
+	
+	
+    }
+}  
