@@ -18,6 +18,9 @@ pagespeed:
   - WebpOptimization
   - MoveCssToHead
 
+  disabled_rewriters:
+  - FlushSubresources
+
 handlers:
 
 - url: /api-email/.*
