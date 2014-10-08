@@ -1,60 +1,55 @@
 {
     "app": {
-    "background":{
-          "img_file":"bg.jpg",
-          "video_file":"desktop"
-    },
-	"navigation":{
-		"buttontext": "Demo",
-		"menu1": "Login",
-		"menu2": "Cadastro",
-		"menu3": "Contato"
-	},
-	"header": {
-		"title":"iMasters Commerce Intelligence",
-		"subtitle": "Plataforma e serviço para maximizar ROI"
-	},
-	"section1":{
-		"title":"Um dashboard central para toda a operação",
-		"content":"Sincronia automatica de dados entre plataformas que não se falam. Esqueça a conciliação por excel. Desocupe sua equipe de TI de tarefas de relatórios. Tenha as respostas sempre na mão"
-	},
-	"section2":{
-		"title":"Gestão da Analitica = Plataforma + Pessoas",
-		"content":"Sente que você não tem recursos ou cultura empresarial para Analytics? Para membros do ecommerce Brasil, estamos oferecendo automação de dados, capacitação, auditoria humana e benchmark das melhores práticas. ",
-		"buttontext":"Veja Mais"
-	},
-	"section3":{
-		"left_title":"Custo de adquirir clientes, e outras segmentações",
-		"left_content":"Análises de segmentação é simples no iMasters Intelligence. Encontre os clientes de maior rentabilidade, e auxilie os que abandonam com frequência.",
-		"right_title":"Custo e margem para qualquer produto, segmento ou pessoa",
-		"right_content":"Fazer análises com cálculos complexos, atravessando multiplas dimensões, categorias, e departamentos tornou-se simples.",
-		"buttontext":"Veja mais"
-	},
-	"subscribe":{
-		"title":"Acesse a demo online",
-		"buttontext":"Ver Demo",
-		"emailtext":"E-mail",
-		"spamtext":"Cadastros finalizados para a turma de Setembro 2014"
-	},
-	"testimonial1":{
-		"title":"Igor Senra Magalhães",
-		"subtitle":"CEO Moip - Pagamentos",
-		"content":"Com toda a complexidade de meio de pagamento, não é qualquer ferramenta que nos atenda. Temos análises inéditas de clientes, e uma grande redução no tempo de preparo dos relatórios",
-		"image": "http://www.placehold.it/185x185"
-	},
-	"testimonial2":{
-		"title":"Charles Betito Filho",
-		"subtitle":"CEO Hive - Games",
-		"content":"Conseguimos finalmente implementar as melhores práticas de relatórios financeiros. Minha equipe tem acesso a dados sem depender da TI",
-		"image": "http://www.placehold.it/185x185"
-	},
-	"testimonial3":{
-		"title":"Fabio Lima",
-		"subtitle":"CEO Sofadigital - Distribuição Video",
-		"content":"Somos a maior distribuidora digitial da america latina. Com esta solução todos nossos membros tem informação em tempo real.",
-		"image": "http://www.placehold.it/185x185"
-	}
-
-
+      "background":{
+            "img_file":"bg.jpg",
+            "video_file":"desktop"
+      },
+      "navigation":{
+            "buttontext": "Demo",
+            "menu1": "Demo",
+            "menu2": "Login",
+            "menu3": "Contato"
+      },
+      "header": {
+            "title":"Customer Intelligence",
+            "subtitle": "Plataforma e serviço para maximizar seu conhecimento dos clientes"
+      },
+      "section1":{
+            "title":"Segmente quem são seus melhores clientes, e os de alto risco",
+            "content":"Com segmentação automática dos relatórios, você conhecerá o impacto de cada segmento na sua receita, custos de aquisição, operação e suporte. Tenha as respostas sempre na mão, e sincronizado com seus sistemas."
+      },
+      "section2":{
+            "title":"Análise = Plataforma + Pessoas",
+            "content":"Sente que você não tem recursos ou cultura empresarial para Analytics? Customer Intelligence inclui o componente humano: capacitação, auditoria humana e benchmark das melhores práticas. Perfeito para departamentos de TI com recursos escassos.",
+            "buttontext":""
+      },
+      "section3":{
+            "left_title":"Custo de adquirir clientes, e outras segmentações",
+            "left_content":"Análises de segmentação é simples no Customer Intelligence. Encontre os clientes de maior rentabilidade, e auxilie os que abandonam com frequência.",
+            "right_title":"Custo e margem para qualquer produto, segmento ou pessoa",
+            "right_content":"Fazer análises com cálculos complexos, atravessando múltiplas dimensões, categorias, e departamentos tornou-se simples.",
+            "buttontext":""
+      },
+      "subscribe":{
+            "title":"Agende uma demo com os seus dados",
+            "buttontext":"Agendar Demo",
+            "emailtext":"E-mail",
+            "spamtext":"Acesso apenas sob convite"
+      },
+      "testimonial1":{
+            "title":"Igor Senra Magalhães",
+            "subtitle":"CEO Moip - Pagamentos",
+            "content":"Com toda a complexidade de meio de pagamento, não é qualquer ferramenta que nos atenda. Temos análises inéditas de clientes, e uma grande redução no tempo de preparo dos relatórios"
+      },
+      "testimonial2":{
+            "title":"Charles Betito Filho",
+            "subtitle":"CEO Hive - Games",
+            "content":"Conseguimos finalmente implementar as melhores práticas de relatórios de clientes. Minha equipe tem acesso a dados sem depender da equipe de TI"
+      },
+      "testimonial3":{
+            "title":"Fabio Lima",
+            "subtitle":"CEO Sofadigital - Distribuição Video",
+            "content":"Somos a maior distribuidora digitial da America Latina. Com esta solução todos nossos clientes e parceiros tem informação em tempo real."
+      }
     }
 }
