@@ -307,9 +307,9 @@ $(document).ready(function () { // Document ready
         $('#section3-buttontext').html($.t('app.section3.buttontext'));
 
         $('#subscribe-title').html($.t('app.subscribe.title'));
-        $('#mc-embedded-subscribe').attr('value',$.t('app.subscribe.buttontext'));
+        $('#subscribe-buttontext').html($.t('app.subscribe.buttontext'));
         $('#subscribe-spamtext').html($.t('app.subscribe.spamtext'));
-        $('#subscribe-mce-EMAIL').attr('placeholder',$.t('app.subscribe.emailtext'));
+        $('#subscribe-emailtext').attr('placeholder',$.t('app.subscribe.emailtext'));
 
         $('#testimonial1-title').html($.t('app.testimonial1.title'));
         $('#testimonial1-subtitle').html($.t('app.testimonial1.subtitle'));
