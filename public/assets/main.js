@@ -367,13 +367,15 @@ $(document).ready(function () { // Document ready
                     "width": 1280,
                     "height": 720,
                     "path": "video/", /* Folder wich contain the mp4, ogg and webm video */
-                    "filename": $.t('app.background.video_file'),
+                    //"filename": $.t('app.background.video_file'),
+                    "filename": $('body').data("background-video"),
                     "types": ["mp4", "webm"]
                 });
             }
             else {
                 // window width is less than 1024px, so we're going to manually load the background image.
-                var url = "url('../img/" + $.t('app.background.img_file') + "')"
+                //var url = "url('../img/" + $.t('app.background.img_file') + "')"
+                var url = "url('../img/" + $('body').data("background-image") + "')"
                 $('.page1').css('background-image', url)
             }
 
