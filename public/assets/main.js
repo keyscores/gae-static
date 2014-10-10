@@ -268,9 +268,36 @@ $(document).ready(function () { // Document ready
             });
 
 /*-----------------------------------------------------------------------------------*/
-            /*	09. VIDEO BACKGROUND IS NOW SET BY i18n MODULE
+            /*	09. VIDEO BACKGROUND
 /*-----------------------------------------------------------------------------------*/
+            var mq = window.matchMedia("(min-width: 1024px) and (orientation : landscape)");
+            mq.addListener(WidthChange);
+            WidthChange(mq);
 
+
+            // media query change
+            function WidthChange(mq) {
+
+                if (mq.matches) {
+                    // Screen is greater than 1024px, load video
+                    var videobackground = new $.backgroundVideo($('.page1'), {
+                        "align": "centerXY",
+                        "width": 1280,
+                        "height": 720,
+                        "path": "video/", /* Folder wich contain the mp4, ogg and webm video */
+                        //"filename": $.t('app.background.video_file'),
+                        "filename": $('body').data("background-video"),
+                        "types": ["mp4", "webm"]
+                    });
+                }
+                else {
+                    // window width is less than 1024px, so we're going to manually load the background image.
+                    //var url = "url('../img/" + $.t('app.background.img_file') + "')"
+                    var url = "url('../img/" + $('body').data("background-image") + "')"
+                    $('.page1').css('background-image', url)
+                }
+
+            }
 
         }
 
@@ -351,37 +378,6 @@ $(document).ready(function () { // Document ready
             slideshowSpeed: 3000,
             slideToStart: 0,
         });
-
-        var mq = window.matchMedia("(min-width: 1024px) and (orientation : landscape)");
-        mq.addListener(WidthChange);
-        WidthChange(mq);
-
-
-        // media query change
-        function WidthChange(mq) {
-
-            if (mq.matches) {
-                // Screen is greater than 1024px, load video
-                var videobackground = new $.backgroundVideo($('.page1'), {
-                    "align": "centerXY",
-                    "width": 1280,
-                    "height": 720,
-                    "path": "video/", /* Folder wich contain the mp4, ogg and webm video */
-                    //"filename": $.t('app.background.video_file'),
-                    "filename": $('body').data("background-video"),
-                    "types": ["mp4", "webm"]
-                });
-            }
-            else {
-                // window width is less than 1024px, so we're going to manually load the background image.
-                //var url = "url('../img/" + $.t('app.background.img_file') + "')"
-                var url = "url('../img/" + $('body').data("background-image") + "')"
-                $('.page1').css('background-image', url)
-            }
-
-        }
-
-
     });
 
 
