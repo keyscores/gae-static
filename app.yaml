@@ -1,4 +1,4 @@
-application: keyscores-static
+application: ks-home-test
 version: stage
 runtime: python27
 api_version: 1
