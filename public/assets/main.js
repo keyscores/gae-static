@@ -316,46 +316,6 @@ $(document).ready(function () { // Document ready
         are replaced with their data-i18n tags */
         $('body').i18n();
 
-
-        //$('#navigation-buttontext').html($.t('app.navigation.buttontext'));
-        //$('#navigation-menu1').html($.t('app.navigation.menu1'));
-        //$('#navigation-menu2').html($.t('app.navigation.menu2'));
-        //$('#navigation-menu3').html($.t('app.navigation.menu3'));
-
-        // $('#header-title').html($.t('app.header.title')); THIS HAS BEEN REPLACED IN INDEX.HTML
-        //$('#header-subtitle').html($.t('app.header.subtitle'));
-
-        $('#section1-title').html($.t('app.section1.title'));
-        $('#section1-content').html($.t('app.section1.content'));
-
-        $('#section2-title').html($.t('app.section2.title'));
-        $('#section2-content').html($.t('app.section2.content'));
-        $('#section2-buttontext').html($.t('app.section2.buttontext'));
-
-        $('#section3-lefttitle').html($.t('app.section3.left_title'));
-        $('#section3-leftcontent').html($.t('app.section3.left_content'));
-        $('#section3-righttitle').html($.t('app.section3.right_title'));
-        $('#section3-rightcontent').html($.t('app.section3.right_content'));
-        $('#section3-buttontext').html($.t('app.section3.buttontext'));
-
-        $('#subscribe-title').html($.t('app.subscribe.title'));
-        $('#subscribe-buttontext').html($.t('app.subscribe.buttontext'));
-        $('#subscribe-spamtext').html($.t('app.subscribe.spamtext'));
-        // $('#subscribe-emailtext').attr('placeholder',$.t('app.subscribe.emailtext')); THIS HAS BEEN REPLACED IN INDEX.HTML
-
-        $('#testimonial1-title').html($.t('app.testimonial1.title'));
-        $('#testimonial1-subtitle').html($.t('app.testimonial1.subtitle'));
-        $('#testimonial1-content').html($.t('app.testimonial1.content'));
-
-        $('#testimonial2-title').html($.t('app.testimonial2.title'));
-        $('#testimonial2-subtitle').html($.t('app.testimonial2.subtitle'));
-        $('#testimonial2-content').html($.t('app.testimonial2.content'));
-
-        $('#testimonial3-title').html($.t('app.testimonial3.title'));
-        $('#testimonial3-subtitle').html($.t('app.testimonial3.subtitle'));
-        $('#testimonial3-content').html($.t('app.testimonial3.content'));
-
-
         $('#slider1').flexslider({
             animation: "fade",
             directionNav: false,
