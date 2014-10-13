@@ -317,13 +317,13 @@ $(document).ready(function () { // Document ready
         $('body').i18n();
 
 
-        $('#navigation-buttontext').html($.t('app.navigation.buttontext'));
-        $('#navigation-menu1').html($.t('app.navigation.menu1'));
-        $('#navigation-menu2').html($.t('app.navigation.menu2'));
-        $('#navigation-menu3').html($.t('app.navigation.menu3'));
+        //$('#navigation-buttontext').html($.t('app.navigation.buttontext'));
+        //$('#navigation-menu1').html($.t('app.navigation.menu1'));
+        //$('#navigation-menu2').html($.t('app.navigation.menu2'));
+        //$('#navigation-menu3').html($.t('app.navigation.menu3'));
 
         // $('#header-title').html($.t('app.header.title')); THIS HAS BEEN REPLACED IN INDEX.HTML
-        $('#header-subtitle').html($.t('app.header.subtitle'));
+        //$('#header-subtitle').html($.t('app.header.subtitle'));
 
         $('#section1-title').html($.t('app.section1.title'));
         $('#section1-content').html($.t('app.section1.content'));
