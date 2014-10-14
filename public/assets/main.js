@@ -271,15 +271,15 @@ $(document).ready(function () { // Document ready
 
             }
 
-        }
+
 
 
     }); /* END OF THE MEDIACHECK */
-    
+
     /*-----------------------------------------------------------------------------------*/
             /*	09. VIDEO BACKGROUND
 /*-----------------------------------------------------------------------------------*/
-    
+
     var mq = window.matchMedia("(min-width: 1024px) and (orientation : landscape)");
     mq.addListener(WidthChange);
     WidthChange(mq);
