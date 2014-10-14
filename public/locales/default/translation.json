@@ -1,9 +1,5 @@
 {
     "app": {
-      "background":{
-            "img_file":"bg-keyscores.jpg",
-            "video_file":"desktop-keyscores"
-      },
       "navigation":{
             "buttontext": "Demo",
             "menu1": "Demo",

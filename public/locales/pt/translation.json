@@ -1,9 +1,5 @@
 {
     "app": {
-      "background":{
-            "img_file":"bg-keyscores.jpg",
-            "video_file":"desktop-keyscores"
-      },
       "navigation":{
             "buttontext": "Demo",
             "menu1": "Demo",
@@ -50,6 +46,55 @@
             "title":"Fabio Lima",
             "subtitle":"CEO Sofadigital - Distribuição Video",
             "content":"Somos a maior distribuidora digitial da America Latina. Com esta solução todos nossos clientes e parceiros tem informação em tempo real."
+      }
+    },
+    "media": {
+      "navigation":{
+            "buttontext": "Demo",
+            "menu1": "Demo",
+            "menu2": "Login",
+            "menu3": "Contact"
+      },
+      "header": {
+            "title":"Media Intelligence",
+            "subtitle": "Insights from your digital content sales, across all channels"
+      },
+      "section1":{
+            "title":"Sync iTunes, Google and Amazon at the source",
+            "content":"Consolidate all data from Apple, Google, Amazon and any other channel. Let us connect to the data source and check for the validity of data. Sit back with the dashboard you needed all this time."
+      },
+      "section2":{
+            "title":"Tough calculations made easy, across all rights holders and channels",
+            "content":"Doing royalty math across many rights holders, regions, and channels is surprisingly hard. And cleaning-up after bad reports is harder.",
+            "buttontext":""
+      },
+      "section3":{
+            "left_title":"Share reports with all your users",
+            "left_content":"Make sure all your partners and coworkers have access to good data. Restrict subsets of data to certain people. Now everyone sees the right numbers.",
+            "right_title":"Slice and drill all reports",
+            "right_content":"Any report can be pivoted and drilled into, by your users themselves. No need to contact an IT guru whenever you need a new chart. ",
+            "buttontext":""
+      },
+      "subscribe":{
+            "title":"Schedule a demo with your own data",
+            "buttontext":"See Demo",
+            "emailtext":"E-mail",
+            "spamtext":"You'll be redirected to a demo next."        
+      },
+      "testimonial1":{
+            "title":"Igor Senra Magalhães",
+            "subtitle":"CEO Moip - Pagamentos",
+            "content":"Com toda a complexidade de meio de pagamento, não é qualquer ferramenta que nos atenda. Temos análises inéditas de clientes, e uma grande redução no tempo de preparo dos relatórios"
+      },
+      "testimonial2":{
+            "title":"Charles Betito Filho",
+            "subtitle":"CEO Hive - Games",
+            "content":"Conseguimos finalmente implementar as melhores práticas de relatórios de clientes. Minha equipe tem acesso a dados sem depender da equipe de TI"
+      },
+      "testimonial3":{
+            "title":"Fabio Lima",
+            "subtitle":"CEO Sofadigital - Distribuição Video",
+            "content":"Somos a maior distribuidora digitial da América Latina. Com esta solução todos nossos clientes e parceiros tem informação em tempo real."
       }
     }
 }
