@@ -154,7 +154,9 @@ $(document).ready(function () { // Document ready
 
                         // Comment the below function if you don't want a redirect to the demo!
                         setTimeout(function(){
-                            window.location = "https://demo.keyscores.com/ecommerce/default/autologin/c2573a3251800fd18a3c4c8f6c501a462cb6bd40?_next=/ecommerce/default/dashboard/14/%3FshowIntro=1";
+                            //window.location = "https://demo.keyscores.com/ecommerce/default/autologin/c2573a3251800fd18a3c4c8f6c501a462cb6bd40?_next=/ecommerce/default/dashboard/14/%3FshowIntro=1";
+                            // The link is now defined in HTML (body tag data attribute)
+                            window.location = $('body').data("redirect-link");
                         },2000);
 
                     },
