@@ -1,8 +1,25 @@
-application: ks-landing
-version: stage
+application: ks-home-test
+version: master
 runtime: python27
 api_version: 1
 threadsafe: yes
+
+pagespeed:
+  enabled_rewriters:
+  - RemoveComments
+  - CollapseWhitespace
+  - MinifyCss
+  - CombineJs
+  - CombineCss
+  - InlineCss
+  - CombineHeads
+  - InlineImages
+  - DeferJs
+  - WebpOptimization
+  - MoveCssToHead
+
+  disabled_rewriters:
+  - FlushSubresources
 
 handlers:
 
