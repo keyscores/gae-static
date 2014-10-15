@@ -5,7 +5,7 @@ Using git push, you can update and host your static HTMl site on Google App Engi
 1. Fork this repository
 2. Place your static files inside public folder
 3. Change app.yaml to the name of your app and version.
-4. Set up "push to deploy" at developers.google.com/console > Source Code > Releases > Create Pipeline pointing to the new repo
+4. Set up "push to deploy" at developers.google.com/console > Source Code > Releases > Create Pipeline pointing to the new repo. (GAE release pipelines are experimental as of 10/2014. The first time you may have to deploy traditionally through googleappengine launcher or such)
 
 Usage Instructions
 ==================
