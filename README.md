@@ -6,8 +6,7 @@ Using git push, you can update and host your static HTML site on Google App Engi
 2. Place your static files inside public folder
 3. Change app.yaml to the name of your app and version.
 4. Set up "push to deploy" at developers.google.com/console > Source Code > Releases > Create Pipeline pointing to the new repo. 
-Note: (GAE release pipelines are experimental as of 10/2014. If it doesn't work initially, perhaps the inital code must be deployed traditionally, through googleappengine launcher or such. If it's still broken, try to delete your pipeline and add again, after the page is successfully being served).
-
+Note: (GAE release pipelines are experimental as of 10/2014. If it doesn't work initially, give it a day or so there is some instability with creating the Release Pipeline. But once it works it's stable)
 Usage Instructions
 ==================
 The site's default text content is located in `public/locales/default/translation.json`. The i18n translation files are located at `public/locales/your-locale/translation.json`.
