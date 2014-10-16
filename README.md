@@ -1,6 +1,6 @@
 gae-static
 ================
-Using git push, you can update and host your static HTMl site on Google App Engine (for free with global CDN and all that good stuff).
+Using git push, you can update and host your static HTML site on Google App Engine (for free with global CDN and all that good stuff).
 
 1. Fork this repository
 2. Place your static files inside public folder
