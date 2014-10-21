@@ -21,6 +21,9 @@ pagespeed:
   disabled_rewriters:
   - FlushSubresources
 
+inbound_services:
+- warmup
+
 handlers:
 
 - url: /api-email/.*
