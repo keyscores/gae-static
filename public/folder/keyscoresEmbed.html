@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+<div class="container-fluid">
+<h1> Keyscores Embed Example </h1>
+<p> This is a plain HTML document, with a Keyscores embed code.</p>
+<h4>Single Chart</h4>
+<iframe
+	src="https://demo.keyscores.com/media/default/embed/709579b6fb51ba2d1d87a87f5cd3169718f62ab3/?h=200&measure=CUSTOMER_GROSS"
+            width="600" height="220" frameborder="1">
+</iframe>
+
+
+
+<p>
+The embed URI structure is the following:
+
+<pre>
+          &lt;iframe
+            src="[Base URL]/[Token]/?[Arguments]"
+            width="100%" height="220" frameborder="0" &gt; &lt;/iframe&gt;
+</pre>
+
+<p>
+This is the URL for the iframe above:
+
+<pre>
+          &lt;iframe
+            src="https://demo.keyscores.com/media/default/embed/709579b6fb51ba2d1d87a87f5cd3169718f62ab3/?h=150&measure=TRANSFER"
+            width="100%" height="220" frameborder="0" &gt; &lt;/iframe&gt;
+</pre>
+
+You can see the parts of the URI are:
+<p>
+<ul>
+	<li>[Base URL] - the application domain, the media demo is demo.keyscores.com/media/default/embed</li>
+	<li>Token - 709579b6fb51ba2d1d87a87f5cd3169718f62ab3 - this is the single-sign-on token of a user which can be used for embeddable publishing.</li>
+	<li>h - height of the chart, increments of 50 from 100 to 450 will be acceptable. This is not the same as the iFrame's borders.</li>
+	<li>measure=CODE; - the code for the measure displayed, you can also use measure=CODEA&measure=CODEB to produce multiple series</li>
+</ul>
+
+<h4>Changing Dimensions</h4>
+
+<iframe
+	src="https://demo.keyscores.com/media/default/embed/709579b6fb51ba2d1d87a87f5cd3169718f62ab3/?h=150&measure=CUSTOMER_GROSS"
+            width="500" height="160" frameborder="1">
+</iframe>
+
+<h4>Two Charts</h4>
+
+<iframe
+	src="https://demo.keyscores.com/media/default/embed/709579b6fb51ba2d1d87a87f5cd3169718f62ab3/?h=200&measure=TRANSFER&measure=CUSTOMER_GROSS"
+            width="600" height="220" frameborder="1">
+</iframe>
+
+</div>     
+</html>
