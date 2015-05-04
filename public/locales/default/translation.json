@@ -45,7 +45,7 @@
       },
       "testimonial3":{
             "title":"Fabio Lima",
-            "subtitle":"CEO Sofadigital - Distribuição Video",
+            "subtitle":"CEO Sofadigital - Digital Film Distribution",
             "content":"We are the largest video content aggregator in Latin America. With this solution all our partners and clients have the data as soon as we do."
       }
     },
@@ -98,8 +98,7 @@
             "content":"We are the largest video content aggregator in Latin America. With this solution all our partners and clients have the data as soon as we do."
       }
     },
-    
- "marketing": {
+    "marketing": {
       "navigation":{
             "buttontext": "Demo",
             "menu1": "Demo",
@@ -108,10 +107,10 @@
       },
       "header": {
             "title":"Continuous Improvement Marketing",
-            "subtitle": "Your customer base improves without intervention"
+            "subtitle": "Improve your customer base, without intervention"
       },
       "section1":{
-            "title":"A complete customer profile, that improves your actions",
+            "title":"Completing a profiles, automated decisions",
             "content":"Since we gather the full customer lifecycle data, we can tell you what works and what doesn't. Magic ensures we always run the best ad, best email, and best website without sacrificing testing."
       },
       "section2":{
