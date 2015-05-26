@@ -96,5 +96,55 @@
             "subtitle":"CEO Sofadigital - Agregador Digital",
             "content":"We are the largest video content aggregator in Latin America. With this solution all our partners and clients have the data as soon as we do."
       }
+    },
+     "marketing": {
+      "navigation":{
+            "buttontext": "Demo",
+            "menu1": "Demo",
+            "menu2": "Login",
+            "menu3": "Contact"
+      },
+      "header": {
+            "title":"Continuous Improvement Marketing",
+            "subtitle": "Improve your customer base, without intervention"
+      },
+      "section1":{
+            "title":"Completing a profiles, automated decisions",
+            "content":"Since we gather the full customer lifecycle data, we can tell you what works and what doesn't. Magic ensures we always run the best ad, best email, and best website without sacrificing testing.  Improvement everyday and across the entire lifecycle...it adds up fast."
+      },
+      "section2":{
+            "title":"Continuous improvement: experimenting while exploiting",
+            "content":"It's not your mother's statistics. Traditional statistics can be done on spreadsheets, but require you to test for some time and only later choose a winning strategy. That's too much downtime. Modern statistical methods allow us run the campaign using our likely best ad, and also be testing for the alternate best. Shouldn't your marketing automation, always be testing?",
+            "buttontext":""
+      },
+      "section3":{
+            "left_title":"Actions happen on schedule, and improve on schedule",
+            "left_content":"As we learn what a profitable customer is, the best emails, content, and ads are served to similar profiles.",
+            "right_title":"All-in-one bid management, content management, crm and customer support ",
+            "right_content":"Sounds like a lot, but our guess is you use 10% features on each platform, and wish they could be combined to get a better customer picture.",
+            "buttontext":""
+      },
+      "subscribe":{
+            "title":"Schedule a demo with your own data",
+            "buttontext":"See Demo",
+            "emailtext":"E-mail",
+            "spamtext":"You'll be redirected to a demo next."        
+      },
+      "testimonial1":{
+            "title":"Igor Senra Magalhães",
+            "subtitle":"CEO Moip - Pagamentos",
+            "content":"No platform has been able to serve our needs, as a fast growing payment transaction company. Besides the new insights there is a dramatic cost reduction in preparing reports"
+      },
+      "testimonial2":{
+            "title":"Charles Betito Filho",
+            "subtitle":"CEO Hive - Games",
+            "content":"We are finally able to implement the best practices of of reporting. My team has access to customer insights without depending on the it department."
+      },
+      "testimonial3":{
+            "title":"Fabio Lima",
+            "subtitle":"CEO Sofadigital - Digital Agregator",
+            "content":"We are the largest video content aggregator in Latin America. With this solution all our partners and clients have the data as soon as we do."
+      }
     }
+
 }
