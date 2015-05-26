@@ -2,9 +2,9 @@
     "app": {
       "navigation":{
             "buttontext": "Demo",
-            "menu1": "Contato",
+            "menu1": "Demo",
             "menu2": "Login",
-            "menu3": "Demo"
+            "menu3": "Contato"
       },
       "header": {
             "title":"Commerce Intelligence",
@@ -51,9 +51,9 @@
     "media": {
       "navigation":{
             "buttontext": "Demo",
-            "menu1": "Contato",
+            "menu1": "Demo",
             "menu2": "Login",
-            "menu3": "Demo"
+            "menu3": "Contact"
       },
       "header": {
             "title":"Media Intelligence",
