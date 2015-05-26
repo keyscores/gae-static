@@ -2,9 +2,9 @@
     "app": {
       "navigation":{
             "buttontext": "Demo",
-            "menu1": "Demo",
+            "menu1": "Contact",
             "menu2": "Login",
-            "menu3": "Contact"
+            "menu3": "Demo"
       },
       "header": {
             "title":"Customer Intelligence",
@@ -52,9 +52,9 @@
     "media": {
       "navigation":{
             "buttontext": "Demo",
-            "menu1": "Demo",
+            "menu1": "Contact",
             "menu2": "Login",
-            "menu3": "Contact"
+            "menu3": "Demo"
       },
       "header": {
             "title":"Media Intelligence",
@@ -101,9 +101,9 @@
     "marketing": {
       "navigation":{
             "buttontext": "Demo",
-            "menu1": "Demo",
+            "menu1": "Contact",
             "menu2": "Login",
-            "menu3": "Contact"
+            "menu3": "Demo"
       },
       "header": {
             "title":"Continuous Improvement Marketing",
